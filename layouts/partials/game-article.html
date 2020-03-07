@@ -1,0 +1,82 @@
+{{ range sort .results ".id" "desc" }}
+
+<div class="row">
+
+<div class="col-sm-12 col-lg-12">
+<h3 id="g-{{.id}}" class="bg-info" ><span id="#g-{{.id}}">{{.date}} {{.name}}</span></h3>
+</div>
+
+<div class="container-fluid bs-docs-container">
+
+<div class="col-sm-4 col-lg-4">
+<ul>
+<li>会場：{{.location}}</li>
+{{ if .dead }}
+<li>〆切：{{.dead}}</li>
+{{ end }}
+</ul>
+<div>
+{{ if .file }}
+<a class="btn btn-default" href="contents/{{.nendo}}/{{.id}}/{{.file}}" target="_blank" onclick="tp('contents/{{.nendo}}/{{.file}}');'">大会要項</a>
+{{ end }}
+{{ if .form }}
+<a class="btn btn-info" href="contents/{{.nendo}}/{{.id}}/{{.form}}" target="_blank" onclick="tp('contents/{{.nendo}}/{{.form}}.pdf');'">申込用紙(PDF)</a>
+{{ end }}
+{{ if .office }}
+<a class="btn btn-info" href="contents/{{.nendo}}/{{.id}}/{{.office}}" target="_blank" onclick="tp('contents/{{.nendo}}/{{.form}}.xlsx');'">申込用紙(Excel)</a>
+{{ end }}
+{{ if .result }}
+<a class="btn btn-success" href="contents/{{.nendo}}/{{.id}}/{{.result}}" target="_blank" onclick="tp('contents/{{.nendo}}/{{.result}}');'">結果</a>
+{{ end }}
+</div>
+{{ if .comment }}
+<hr/>
+<div class="alert alert-warning" role="alert">
+{{.comment}}&nbsp;
+</div>
+{{ end }}
+</div>
+
+{{ $code := .id }}
+{{ $nendo := .nendo }}
+{{ if .photo }}
+<div class="col-sm-7 col-lg-7">
+<div id="cs_{{$code}}" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    {{ range $i, $p := .photo}}
+    {{ if lt $i 1 }}
+    <li data-target="#cs_{{$code}}" data-slide-to="{{ $i }}" class="active"></li>
+    {{ else }}
+    <li data-target="#cs_{{$code}}" data-slide-to="{{ $i }}"></li>
+    {{ end }}
+    {{ end }}
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    {{ range $i, $p := .photo}}
+    {{ if lt $i 1 }}
+    <div class="item active">
+      <img class="ready img-responsive d-block img-fluid" src="contents/300x300.png" data-src="contents/{{ $nendo }}/{{ $code }}/{{ $p }}">
+    </div>
+    {{ else }}
+    <div class="item">
+      <img class="ready img-responsive d-block img-fluid" src="contents/300x300.png" data-src="contents/{{ $nendo }}/{{ $code }}/{{ $p }}">
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+  <a class="left carousel-control" href="#cs_{{ .id }}" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#cs_{{ .id }}" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a></div>
+</div>
+
+{{ end }}
+
+
+</div>
+</div>
+
+{{ end }}
+

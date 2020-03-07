@@ -1,0 +1,16 @@
+<script type="text/javascript">
+/* In jQuery */
+$.fn.tada = function() {
+    return this.each(function() {
+        Tada.add(this);
+    });
+};
+
+$(function(){
+  $('img.ready').tada();
+
+   $(window).on('hashchange', function(){
+   });
+
+});
+</script>

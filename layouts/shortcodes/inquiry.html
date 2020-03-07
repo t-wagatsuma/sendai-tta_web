@@ -1,0 +1,38 @@
+<script type="text/javascript">
+$(document).ready(function(){
+    alert("ready");
+    //$("#form1").validate();
+    $("#form1").validate({
+    rules: {
+        "name" :{
+            required: true
+        },
+        "team" :{
+            required: true
+        },
+        "email" :{
+            required: true
+        },
+        "tel" :{
+            required: true
+        },
+        "content" :{
+            required: true
+        }
+    },
+    messages: {
+        "name":{
+            required: "ご希望のメニューを選択してください"
+        }
+    }
+});
+
+});
+
+$('#form1').submit(function(){
+	alert('subjit');
+    return false;
+})
+
+
+</script>

@@ -1,0 +1,266 @@
+results:
+ 20170408:
+  id: 20170408
+  nendo: h29 
+  date: "2017-04-08"
+  name: "平成29年仙台市春期卓球リーグ戦（女子）"
+  location: "若林体育館"
+  dead: "2017-03-25"
+  file: "20170408.pdf"
+  form: "01W_20170408.pdf"
+  office: "01W_20170408.xlsx"
+  result: "01W_20170408_result.pdf"
+  photo: 
+   - "wt.jpg"
+
+ 20170409:
+  id: 20170409
+  nendo: h29 
+  date: "2017-04-09"
+  name: "平成29年仙台市春期卓球リーグ戦（男子）"
+  location: "若林体育館"
+  dead: "2017-03-25"
+  file: "20170409.pdf"
+  form: "01M_20170409.pdf"
+  office: "01M_20170409.xlsx"
+  result: "01M_20170409_result.pdf"
+  photo: 
+   - "mt.jpg"
+
+ 20170429:
+  id: 20170429
+  nendo: h29 
+  date: "2017-04-29"
+  name: "第7回杜の都オープンラージボール卓球大会"
+  location: "カメイアリーナ仙台"
+  dead: "2017-04-10"
+  file: "20170429.pdf"
+  form: "20170429_entry.pdf"
+  office: "20170429_entry.xlsx"
+  result: "20170429_result.pdf"
+  photo: 
+   - "t80.jpg"
+   - "t120.jpg"
+   - "t140.jpg"
+   - "xd80.jpg"
+   - "xd120.jpg"
+   - "xd140.jpg"
+
+ 20170505:
+  id: 20170505
+  nendo: h29 
+  date: "2017-05-05"
+  name: "第47回 仙台市中学校対抗卓球大会"
+  location: "カメイアリーナ仙台"
+  dead: ""
+  file: ""
+  form: ""
+  office: ""
+  result: "20170505_result.pdf"
+  photo: 
+   - "mt.jpg"
+   - "wt.jpg"
+
+ 20170507:
+  id: 20170507
+  nendo: h29 
+  date: "2017-05-07"
+  name: "第54回 仙台市民総合体育大会 卓球競技"
+  location: "若林体育館"
+  dead: "2017-04-21"
+  file: "20170507.pdf"
+  form: "20170507_entry.pdf"
+  office: "20170507_entry.xlsx"
+  result: "20170507_result.pdf"
+  photo: 
+   - "mt.jpg"
+   - "wt.jpg"
+
+
+ 20170625:
+  id: 20170625
+  nendo: h29 
+  date: "2017-06-25"
+  name: "第17回 仙台市卓球選手権大会"
+  location: "宮城野体育館"
+  dead: "2017-06-09"
+  file: "20170625.pdf"
+  form: "20170625_entry.pdf"
+  office: "20170625_entry.xlsx"
+  result: "20170625_result.pdf"
+  photo: 
+   - "xd.jpg"
+   - "xd100.jpg"
+   - "md.jpg"
+   - "wd.jpg"
+   - "md100.jpg"
+   - "wd100.jpg"
+
+
+ 20170717:
+  id: 20170717
+  nendo: h29 
+  date: "2017-07-17"
+  name: "第17回 仙台市ラージボール卓球大会"
+  location: "若林体育館"
+  dead: "2017-07-01"
+  file: "20170717.pdf"
+  form: "20170717_entry.pdf"
+  office: "20170717_entry.xlsx"
+  result: "20170717_result.pdf"
+  photo: 
+   - "mt.jpg"
+   - "wt.jpg"
+   - "mt60.jpg"
+   - "wt60.jpg"
+   - "md.jpg"
+   - "wd.jpg"
+   - "md120.jpg"
+   - "wd120.jpg"
+   - "md140.jpg"
+   - "wd140.jpg"
+
+ 20170903_s:
+  id: 20170903
+  nendo: h29 
+  date: "2017-09-03"
+  name: "第27回 仙台市卓球協会会長杯（一般の部）"
+  location: "宮城野体育館"
+  dead: "2017-08-19"
+  file: "20170903s.pdf"
+  result: "20170903s_result.pdf"
+  photo: 
+   - "mt.jpg"
+   - "wt.jpg"
+
+ 20170903_j:
+  id: 20170903
+  nendo: h29 
+  date: "2017-09-03"
+  name: "第27回 仙台市卓球協会会長杯（中学の部）"
+  location: "宮城野体育館"
+  dead: "2017-08-19"
+  file: "20170903j.pdf"
+  result: "20170903j_result.pdf"
+  photo: 
+   - "mtj.jpg"
+   - "wtj.jpg"
+
+ 20171029:
+  id: 20171029
+  nendo: h29 
+  date: "2017-10-29"
+  name: "仙台市民総合体育大会卓球競技 兼 第17回区対抗卓球大会"
+  location: "宮城野体育館(障害者アリーナ)"
+  dead: "2017-10-16"
+  file: "20171029.pdf"
+  result: "20171029_result.pdf"
+
+ 20171210:
+  id: 20171210
+  nendo: h29 
+  date: "2017-12-10"
+  name: "平成29年仙台市秋季卓球リーグ戦（女子）"
+  location: "若林体育館"
+  dead: "2017-11-25"
+  file: "20171210.pdf"
+  form: "20171210-form.pdf"
+  office: "20171210-form.xlsx"
+  result: "20171210_result.pdf"
+  photo: 
+   - "wt1.jpg"
+   - "wt2.jpg"
+   - "wt3.jpg"
+
+
+ 20171217:
+  id: 20171217
+  nendo: h29 
+  date: "2017-12-17"
+  name: "平成29年仙台市秋季卓球リーグ戦（男子）"
+  location: "若林体育館"
+  dead: "2017-12-02"
+  file: "20171217.pdf"
+  form: "20171217-form.pdf"
+  office: "20171217-form.xlsx"
+  result: "20171217_result.pdf"
+  photo: 
+   - "mt1.jpg"
+   - "mt2.jpg"
+   - "mt3.jpg"
+
+ 20180113:
+  id: 20180113
+  nendo: h29 
+  date: "2018-01-13"
+  name: "第24回 仙台市個人ラージボール卓球大会"
+  location: "若林体育館"
+  dead: "2017-12-22"
+  file: "20180113.pdf"
+  form: "20180113-form.pdf"
+  office: "20180113-form.xlsx"
+  result: "20180113_result.pdf"
+  photo: 
+   - "xd.jpg"
+   - "xd80.jpg"
+   - "xd120.jpg"
+   - "xd140.jpg"
+   - "wd80.jpg"
+   - "wd120.jpg"
+   - "md80.jpg"
+   - "md120.jpg"
+   - "md140.jpg"
+
+ 20180212:
+  id: 20180212
+  nendo: h29 
+  date: "2018-02-12"
+  name: "第81回 仙台市個人卓球選手権大会(個人戦)"
+  location: "若林体育館"
+  dead: "2018-01-27"
+  file: "20180212.pdf"
+  form: "20180212_entry.pdf"
+  office: "20180212_entry.xlsx"
+  result: "20180212_result.pdf"
+  photo: 
+   - "xd.jpg"
+   - "xd100.jpg"
+   - "ms.jpg"
+   - "ms50.jpg"
+   - "ms60.jpg"
+   - "ws.jpg"
+   - "ws50.jpg"
+   - "ws60.jpg"
+
+ 20180304:
+  id: 20180304
+  nendo: h29 
+  date: "2018-03-04"
+  name: "第47回 仙台市中学生新人卓球大会"
+  location: "若林体育館"
+  dead: "2018-02-13"
+  file: "20180304.pdf"
+  result: "20180304_result.pdf"
+  photo: 
+   - "ms2.jpg"
+   - "ws2.jpg"
+   - "ms1.jpg"
+   - "ws1.jpg"
+
+ 20180321:
+  id: 20180321
+  nendo: h29 
+  date: "2018-03-21"
+  name: "第26回 バタフライダブルスチームカップ"
+  location: "若林体育館"
+  dead: "2018-03-09"
+  file: "20180321.pdf"
+  form: "20180321_entry.pdf"
+  office: "20180321_entry.xls"
+  result: "20180321_result.pdf"
+  photo: 
+   - "mt-h.jpg"
+   - "wt-h.jpg"
+   - "mt-l.jpg"
+   - "wt-l.jpg"
+

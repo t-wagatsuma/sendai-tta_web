@@ -1,0 +1,5 @@
+= sendai-tta website
+
+site:: http://www.sendai-tta.info/game_r02.html
+build:: Hugo Static Site Generator v0.66.0-78C3C78F windows/amd64
+

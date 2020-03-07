@@ -1,0 +1,232 @@
+results:
+
+ 20180414:
+  id: 20180414
+  nendo: h30 
+  date: "2018-04-14"
+  name: "H30年仙台市春季卓球リーグ戦（女子の部）"
+  location: "宮城野体育館"
+  dead: "2018-03-31"
+  file: "20180414.pdf"
+  form: "20180414_entry.pdf"
+  office: "2018014_entry.xls"
+  result: "20180414_result.pdf"
+  photo: 
+   - "wt.jpg"
+
+ 20180422:
+  id: 20180422
+  nendo: h30 
+  date: "2018-04-22"
+  name: "H30年仙台市春季卓球リーグ戦（男子の部）"
+  location: "宮城野体育館"
+  dead: "2018-04-07"
+  file: "20180422.pdf"
+  form: "20180422_entry.pdf"
+  office: "20180422_entry.xlsx"
+  result: "20180422_result.pdf"
+  photo: 
+   - "mt.jpg"
+
+ 20180429:
+  id: 20180429
+  nendo: h30 
+  date: "2018-04-29"
+  name: "第8回杜の都オープンラージボール卓球大会"
+  location: "カメイアリーナ仙台"
+  dead: "2018-04-10"
+  file: "20180429.pdf"
+  form: "20180429_entry.pdf"
+  office: "20180429_entry.xls"
+  result: "20180429_result.pdf"
+  photo: 
+   - "t_80.jpg"
+   - "t_120.jpg"
+   - "t_140.jpg"
+   - "xd_80.jpg"
+   - "xd_120.jpg"
+   - "xd_140.jpg"
+
+ 20180504:
+  id: 20180504
+  nendo: h30 
+  date: "2018-05-04"
+  name: "仙台市中学校対抗卓球大会（団体）"
+  location: "仙台市体育館"
+  dead: "-"
+  result: "20180504_result.pdf"
+  photo: 
+   - "mt.jpg"
+   - "wt.jpg"
+
+ 20180520:
+  id: 20180520
+  nendo: h30 
+  date: "2018-05-20"
+  name: "仙台市民総合体育大会 卓球競技"
+  location: "宮城野体育館"
+  dead: "2018-05-04"
+  file: "20180520.pdf"
+  form: "20180520_entry.pdf"
+  office: "20180520_entry.xlsx"
+  result: "20180520_result.pdf"
+  photo: 
+   - "mt.jpg"
+   - "wt.jpg"
+
+ 20180624:
+  id: 20180624
+  nendo: h30 
+  date: "2018-06-24"
+  name: "仙台市卓球選手権大会（ダブルス）"
+  location: "宮城野体育館"
+  dead: "2018-06-08"
+  file: "20180624.pdf"
+  form: "20180624_entry.pdf"
+  office: "20180624_entry.xlsx"
+  result: "20180624_result.pdf"
+  photo: 
+   - "xd.jpg"
+   - "xd90.jpg"
+   - "xd120.jpg"
+   - "md.jpg"
+   - "md100.jpg"
+   - "wd.jpg"
+   - "wd100.jpg"
+
+ 20180716:
+  id: 20180716
+  nendo: h30 
+  date: "2018-07-16"
+  name: "仙台市ラージボール卓球大会"
+  location: "若林体育館"
+  dead: "2018-07-01"
+  file: "20180716.pdf"
+  form: "20180716_entry.pdf"
+  office: "20180716_entry.xlsx"
+  result: "20180716_result.pdf"
+  photo: 
+   - "mt.jpg"
+   - "wt.jpg"
+   - "md.jpg"
+   - "wd.jpg"
+   - "md120.jpg"
+   - "wd120.jpg"
+   - "md140.jpg"
+   - "wd140.jpg"
+
+ 20180811:
+  id: 20180811
+  nendo: h30 
+  date: "2018-08-11"
+  name: "仙台市卓球協会会長杯卓球大会（中学）"
+  location: "宮城野体育館"
+  dead: "2018-07-26"
+  file: "20180811.pdf"
+  result: "20180811_result.pdf"
+  photo: 
+   - "mt.jpg"
+   - "wt.jpg"
+
+ 20180812:
+  id: 20180812
+  nendo: h30 
+  date: "2018-08-12"
+  name: "仙台市卓球協会会長杯卓球大会（一般）"
+  location: "宮城野体育館"
+  dead: "2018-07-26"
+  file: "20180812.pdf"
+  form: "20180812_entry.pdf"
+  office: "20180812_entry.xlsx"
+  result: "20180812_result.pdf"
+  photo: 
+   - "mt.jpg"
+   - "wt.jpg"
+
+
+ 20181216:
+  id: 20181216
+  nendo: h30 
+  date: "2018-12-16"
+  name: "平成30年度 仙台市秋季リーグ戦（女子の部）"
+  location: "若林体育館"
+  dead: "2018-12-01"
+  file: "20181216.pdf"
+  form: "20181216_entry.pdf"
+  office: "20181216_entry.xlsx"
+  result: "20181216_result.pdf"
+  photo: 
+   - "wt.jpg"
+
+ 20181224:
+  id: 20181224
+  nendo: h30 
+  date: "2018-12-24"
+  name: "平成30年度 仙台市秋季リーグ戦（男子の部）"
+  location: "若林体育館"
+  dead: "2018-12-01"
+  file: "20181224.pdf"
+  form: "20181224_entry.pdf"
+  office: "20181224_entry.xlsx"
+  result: "20181224_result.pdf"
+
+
+ 20190119:
+  id: 20190119
+  nendo: h30 
+  date: "2019-01-19"
+  name: "第25回 仙台市個人ラージボール卓球大会"
+  location: "若林体育館"
+  dead: "2018-12-23"
+  file: "20190119.pdf"
+  form: "20190119_entry.pdf"
+  office: "20190119_entry.xlsx"
+  result: "20190119_result.pdf"
+  photo: 
+   - "xd1.jpg"
+   - "md1.jpg"
+   - "wd1.jpg"
+   - "xd2.jpg"
+   - "md2.jpg"
+   - "wd2.jpg"
+   - "xd3.jpg"
+   - "md3.jpg"
+   - "wd3.jpg"
+
+
+ 20190211:
+  id: 20190211
+  nendo: h30 
+  date: "2019-02-11"
+  name: "第82回 仙台市個人卓球選手権大会"
+  location: "カメイアリーナ（仙台市体育館）"
+  dead: "2019-01-27"
+  file: "20190211.pdf"
+  form: "20190211_entry.pdf"
+  office: "20190211_entry.xlsx"
+  result: "20190211_result.pdf"
+  photo: 
+   - "xd.jpg"
+   - "xd100.jpg"
+   - "ms.jpg"
+   - "ms50.jpg"
+   - "ms60.jpg"
+   - "ws.jpg"
+   - "ws50.jpg"
+   - "ws60.jpg"
+
+
+ 20190321:
+  id: 20190321
+  nendo: h30 
+  date: "2019-03-21"
+  name: "第４８回 仙台市中学生新人卓球大会"
+  location: "若林体育館"
+  dead: "2019-02-15"
+  file: "20190321.pdf"
+  result: "20190321_result.pdf"
+  photo: 
+   - "ws1.jpg"
+   - "ms1.jpg"
+   - "ws2.jpg"
+   - "ms2.jpg"

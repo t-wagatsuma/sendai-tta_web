@@ -1,0 +1,570 @@
+{{ partial "header.html" . }}
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+/* DOMの読み込み完了後に処理 */
+if(window.addEventListener) {
+	window.addEventListener( "load" , shareButtonReadSyncer, false );
+}else{
+	window.attachEvent( "onload", shareButtonReadSyncer );
+}
+
+/* シェアボタンを読み込む関数 */
+function shareButtonReadSyncer(){
+}
+
+
+});
+</script>
+
+<p>仙台市卓球協会Webサイトへようこそ。協会情報、および当協会が主催する大会情報の発信を致します。</p>
+
+<div class="stta">
+
+<h2 class="bg-primary"><span class="glyphicon glyphicon-th-list"></span>&nbsp;大会の中止について（新型コロナウイルス感染症関連: 3/2更新）</h2>
+<p style="color:red; font-weight:bold;">現時点での新型コロナウイルス感染症対策に係る国の方針及び感染の広がりを鑑み、以下の大会について中止とする事と致しました。関連協会の情報と併せて掲載致します。
+</p>
+<ul>
+<li>03/29 第２７回泉区卓球協会会長杯争奪卓球大会（個人の部）（※泉区主催）
+</li>
+<li><u>03/29 第４９回仙台市中学生新人卓球大会（個人単）</u>
+</li>
+<li><u>03/21 第２７回 バタフライ．ダブルスチームカップ</u>
+</li>
+<li>03/15 第２６回宮城野親善卓球大会・宮城野区中学校卓球大会（※宮城野区主催）
+</li>
+<li>03/08 第５回青葉区卓球協会会長杯争奪卓球大会（※青葉区主催）
+</li>
+</ul>
+
+<h2 class="bg-primary"><span class="glyphicon glyphicon-th-list"></span>&nbsp;お知らせ</h2>
+<div class="container-fluid">
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2020/03/06
+</div>
+<div class="col-sm-10 stta-news">
+05/02 仙台市中学校対抗卓球大会の要項を掲載しました。
+<small class="label label-warning">New</small>
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2020/02/24
+</div>
+<div class="col-sm-10 stta-news">
+令和2年度の年間計画を掲載しました（バナーからご参照下さい）。併せてiCalカレンダーにデータを追加しました。
+<small class="label label-warning">New</small>
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2020/02/24
+</div>
+<div class="col-sm-10 stta-news">
+04/25 仙台市春季リーグ戦（男子）の要項を掲載しました。
+<small class="label label-warning">New</small>
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2020/02/24
+</div>
+<div class="col-sm-10 stta-news">
+04/11 仙台市春季リーグ戦（女子）の要項を掲載しました。
+<small class="label label-warning">New</small>
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2020/02/24
+</div>
+<div class="col-sm-10 stta-news">
+04/29 杜の都オープンラージボール大会の要項を掲載しました。
+<small class="label label-warning">New</small>
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2020/02/13
+</div>
+<div class="col-sm-10 stta-news">
+02/11 仙台市個人卓球選手権大会の結果を掲載しました。
+<small class="label label-warning">New</small>
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2020/01/29
+</div>
+<div class="col-sm-10 stta-news">
+03/21 バタフライ・ダブルス・チームカップの要項を掲載しました。
+<small class="label label-warning">New</small>
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2020/01/23
+</div>
+<div class="col-sm-10 stta-news">
+01/18 仙台市個人ラージボール大会の結果を掲載しました。
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2019/12/20
+</div>
+<div class="col-sm-10 stta-news">
+02/11 仙台市個人卓球選手権大会(個人戦)の要項を掲載しました。
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2019/12/17
+</div>
+<div class="col-sm-10 stta-news">
+12/15 仙台市秋季リーグ戦（男子）の結果を掲載しました。
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2019/12/17
+</div>
+<div class="col-sm-10 stta-news">
+12/14 仙台市秋季リーグ戦（女子）の結果を掲載しました。
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2019/12/04
+</div>
+<div class="col-sm-10 stta-news">
+01/18 第26回 仙台市 個人ラージボール卓球大会の要項を掲載しました。
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2019/11/11
+</div>
+<div class="col-sm-10 stta-news">
+12/21から開催される「ジャパントップ12（兼代表選考会）」の情報を掲載しました。
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2019/10/20
+</div>
+<div class="col-sm-10 stta-news">
+12/15 仙台市秋季リーグ戦（男子）の要項を掲載しました。
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2019/10/20
+</div>
+<div class="col-sm-10 stta-news">
+12/14 仙台市秋季リーグ戦（女子）の要項を掲載しました。
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2019/10/16
+</div>
+<div class="col-sm-10 stta-news">
+10/15 仙台市区対抗卓球大会の結果を掲載しました。
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2019/10/06
+</div>
+<div class="col-sm-10 stta-news">
+10/05 杜の都レディース卓球大会の結果を掲載しました。
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2019/08/17
+</div>
+<div class="col-sm-10 stta-news">
+08/11 仙台市卓球協会会長杯（一般の部）の結果を掲載しました。
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2019/08/17
+</div>
+<div class="col-sm-10 stta-news">
+08/10 仙台市卓球協会会長杯（中学の部）の結果を掲載しました。
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2019/07/31
+</div>
+<div class="col-sm-10 stta-news">
+07/28 仙台市ラージボール卓球大会の結果を掲載しました。
+</div><!-- /news_row -->
+
+<!-- news_row -->
+<div class="col-sm-2 stta-date">
+2019/07/06
+</div>
+<div class="col-sm-10 stta-news">
+06/23 仙台市卓球選手権大会（ダブルス戦）の結果を掲載しました。
+</div><!-- /news_row -->
+
+
+</div>
+
+<h2 id="chairman" class="bg-primary"><span class="glyphicon glyphicon-user"></span>&nbsp;ご挨拶</h2>
+<div class="container-fluid">
+<div class='col-xs-12'>
+<img class='img-responsive pull-left col-xs-4' style='padding:0;margin:5px 15px 0 0;' src='images/kaichou2.jpg'>
+	<p>皆様には、益々ご活躍のこととお慶び申し上げます。</p>
+	<p>また平素は当協会の事業に対し、特段のご協力ご支援を賜り厚く御礼申し上げます。</p>
+	<p>さて、この度会員の皆様に対し、仙台市卓球協会の活動をより広く知っていただくため、ホームページを開設することといたしました。</p>
+	<p>大会日程・大会要領・試合結果等、最新のニュースを掲載し、会員の皆様方が大会に参加しやすいようお届けしてまいりますので、ご活用くださいますようお願い申し上げます。</p>
+	<p>仙台市卓球協会　会長　斎藤 建雄</p>
+</div>
+</div>
+</div>
+
+
+<div class="stta">
+<h2 id="about" class="bg-primary"><span class="glyphicon glyphicon-flag"></span>&nbsp;協会情報</h2>
+
+<p>令和元年度（更新：2019-04-22）</p>
+
+<div class="container-fluid">
+<div class="panel panel-default">
+<!-- Default panel contents -->
+<div class="panel-heading">
+<p>仙台市卓球協会 役員一覧</p>
+<small>（）内には、兼務する5区の協会名を記載しています（青葉区、宮城野区、若林区、太白区、泉区）</small>
+</div>
+
+
+<div class="alt-table-responsive">
+<table class="table table-condensed table-striped table-bordered">
+          <tr>
+            <th>会長</th>
+            <td colspan="4">斎藤 建雄</td>
+          </tr>
+          <tr>
+            <th rowspan="2">副会長</th>
+            <td>&#39641;橋 光範&nbsp;（青葉）</td>
+            <td>新貝 博&nbsp;（宮城野）</td>
+            <td>鈴木 伸一&nbsp;（若林）</td>
+            <td>石田 優光&nbsp;（太白）</td>
+          </tr>
+          <tr>
+            <td>渡辺 広衛&nbsp;（泉）</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>顧問</th>
+            <td>大久保 宏</td>
+            <td>小野 隆</td>
+            <td>平間 一巳</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>相談役</th>
+            <td>熊谷 光夫</td>
+            <td>高橋 次夫</td>
+            <td>降矢 和子</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>監事</th>
+            <td>佐藤 康則&nbsp;（宮城野）</td>
+            <td>伊藤 良一&nbsp;（青葉）</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>理事長</th>
+            <td colspan="4">（兼）&#39641;橋 光範</td>
+          </tr>
+          <tr>
+            <th rowspan="2">副理事長</th>
+            <td>渡辺 敏雄&nbsp;（青葉）</td>
+            <td>狹間 善次&nbsp;（宮城野）</td>
+            <td>伊藤 結花&nbsp;（若林）</td>
+            <td>菅野 知&nbsp;（太白）</td>
+          </tr>
+          <tr>
+            <td>佐藤 憲一&nbsp;（泉）</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>事務局長&nbsp;</th>
+            <td colspan="4">（兼）鈴木 伸一&nbsp;</td>
+          </tr>
+          <tr>
+            <th>会計局長&nbsp;</th>
+            <td colspan="4">（兼）渡辺 広衛&nbsp;</td>
+          </tr>
+          <tr>
+            <th rowspan="2">常任理事</th>
+            <td>熊谷 淳子&nbsp;（青葉）</td>
+            <td>澤畑 和宏&nbsp;（宮城野）</td>
+            <td>佐々木 政彦&nbsp;（若林）</td>
+            <td>渡辺 健治&nbsp;（太白）</td>
+          </tr>
+          <tr>
+            <td>渡辺 博子&nbsp;（泉）</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>常任理事&nbsp;（会長推薦）</th>
+            <td>柴田 敬公</td>
+            <td>千葉 尚美</td>
+            <td>渡辺 久美</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>常任理事&nbsp;（中体連）</th>
+            <td colspan="4">山田 恵子</td>
+          </tr>
+          <tr>
+            <th rowspan="6">理事</th>
+            <td>遠藤 勇人&nbsp;（青葉）</td>
+            <td>菅原 里子&nbsp;（青葉）</td>
+            <td>佐藤 ゆかり&nbsp;（青葉）</td>
+            <td>岩島 照人&nbsp;（青葉）</td>
+          </tr>
+          <tr>
+            <td>田中 康之&nbsp;（宮城野）</td>
+            <td>阿部 真之&nbsp;（宮城野）</td>
+            <td>我妻 隆志&nbsp;（宮城野）</td>
+            <td>清野 範子&nbsp;（宮城野）</td>
+          </tr>
+          <tr>
+            <td>櫻田 郁子&nbsp;（若林）</td>
+            <td>川村 重夫&nbsp;（若林）</td>
+            <td>竹之内 秀一&nbsp;（若林）</td>
+            <td>佐藤 浩美&nbsp;（若林）</td>
+          </tr>
+          <tr>
+            <td>村上 憲助&nbsp;（太白）</td>
+            <td>小野寺 郁美&nbsp;（太白）</td>
+            <td>吉田 友之&nbsp;（太白）</td>
+            <td>山田 武芳&nbsp;（太白）</td>
+          </tr>
+          <tr>
+            <td>渡辺 博子&nbsp;（泉）</td>
+            <td>野村 文子&nbsp;（泉）</td>
+            <td>阿部 ゆたか&nbsp;（泉）</td>
+            <td>河本 洋子&nbsp;（泉）</td>
+          </tr>
+          <tr>
+            <td>菊池 康司&nbsp;（泉）</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th rowspan="2">理事&nbsp;（会長推薦）</th>
+            <td>平 仁美&nbsp;（太白）</td>
+            <td>山崎 卓巳&nbsp;（宮城野）</td>
+            <td>木村 昭夫&nbsp;（宮城野）</td>
+            <td>千葉 理恵子&nbsp;（宮城野）</td>
+          </tr>
+          <tr>
+            <td>辻 真哉&nbsp;（若林）</td>
+            <td>本間 紀一郎&nbsp;（泉）</td>
+            <td>白岩 英子&nbsp;（青葉）</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>理事&nbsp;（中体連）</td>
+            <td>今野 啓</td>
+            <td>元山 祐一</td>
+            <td>柴田 亮</td>
+          </tr>
+   </table>
+
+ <h3 class="bg-info">青葉区卓球協会</h3>
+ <table class="table table-condensed table-striped table-bordered">
+  <colgroup>
+    <col style="width:30%;">
+    <col style="width:70%;">
+  </colgroup>
+  <tr><th>会長
+  </th>
+  <td>&#39641;橋 光範
+  </td></tr>
+  <tr><th>副会長
+  </th>
+  <td>伊藤良一
+  </td></tr>
+  <tr><th>理事長
+  </th>
+  <td>渡辺敏雄
+  </td></tr>
+ </table>
+
+ <h3 class="bg-info">若林区卓球協会</h3>
+ <table class="table table-condensed table-striped table-bordered">
+  <colgroup>
+    <col style="width:30%;">
+    <col style="width:70%;">
+  </colgroup>
+  <tr><th>会長
+  </th>
+  <td>鈴木 伸一
+  </td></tr>
+  <tr><th>副会長
+  </th>
+  <td>佐々木 政彦
+  </td></tr>
+  <tr><th>理事長
+  </th>
+  <td>伊藤 結花
+  </td></tr>
+ </table>
+
+ <h3 class="bg-info">宮城野区卓球協会</h3>
+ <table class="table table-condensed table-striped table-bordered">
+  <colgroup>
+    <col style="width:30%;">
+    <col style="width:70%;">
+  </colgroup>
+  <tr><th>会長
+  </th>
+  <td>新貝 博
+  </td></tr>
+  <tr><th>副会長
+  </th>
+  <td>川畑 淳一
+  </td></tr>
+  <tr><th>理事長
+  </th>
+  <td>狭間 善次
+  </td></tr>
+ </table>
+
+ <h3 class="bg-info">太白区卓球協会</h3>
+ <table class="table table-condensed table-striped table-bordered">
+  <colgroup>
+    <col style="width:30%;">
+    <col style="width:70%;">
+  </colgroup>
+  <tr><th>会長
+  </th>
+  <td>石田 優光
+  </td></tr>
+  <tr><th>副会長
+  </th>
+  <td>村上 憲助、伊勢典充
+  </td></tr>
+  <tr><th>理事長
+  </th>
+  <td>菅野 知
+  </td></tr>
+ </table>
+
+ <h3 class="bg-info">泉区卓球協会</h3>
+ <table class="table table-condensed table-striped table-bordered">
+  <colgroup>
+    <col style="width:30%;">
+    <col style="width:70%;">
+  </colgroup>
+  <tr><th>会長
+  </th>
+  <td>渡辺 広衛
+  </td></tr>
+  <tr><th>副会長
+  </th>
+  <td>門間 秀光
+  </td></tr>
+  <tr><th>理事長
+  </th>
+  <td>佐藤 憲一
+  </td></tr>
+ </table>
+</div>
+</div>
+</div>
+</div>
+
+<div class="bs-docs-section stta">
+<h2 id="about" class="bg-primary"><span class="glyphicon glyphicon-search"></span>&nbsp;リンク集</h2>
+<h3 class="bg-success">協会・団体</h3>
+  <ul class="link">
+   <li><a href="http://tapinpon.wix.com/taihakutt" target="_blank">仙台市太白区卓球協会</a>
+   </li>
+   <li><a href="http://www.izumi-tta.com/" target="_blank">仙台市泉区卓球協会</a>
+   </li>
+   <li><a href="http://miyagino-tta.jimdo.com/" target="_blank">仙台市宮城野区卓球協会</a>
+   </li>
+   <li><a href="http://www.mctr-tt.com/" target="_blank">宮城県中体連卓球専門部</a>
+   </li>
+   <li><a href="http://www.miyagi-tta.com/" target="_blank">宮城県卓球協会</a>
+   </li>
+   <li><a href="http://www.jtta.or.jp/" target="_blank">公益財団法人 日本卓球協会</a>
+   </li>
+   </ul>
+  <hr>
+  <ul class="link">
+   <li><a href="http://n-tta.jimdo.com/" target="_blank">名取市卓球協会</a>
+   </li>
+  </ul>
+<h3 class="bg-success">卓球場・ショップ</h3>
+  <ul class="link">
+   <li><a href="http://sendaitakkyucenter.storeblog.jp/" target="_blank">仙台卓球センター</a>
+   </li>
+   <li><a href="http://www.sendai-takkyu-tamachi.com/" target="_blank">卓球のタマチ</a>
+   </li>
+   <li><a href="http://www.takkyu-noa.net/" target="_blank">卓球ラウンジＮＯＡ</a>
+   </li>
+   <li><a href="http://tabletennis-sendai.com/" target="_blank">仙台卓球スポーツクラブ</a>
+   </li>
+  </ul>
+</div>
+
+<!-- share -->
+<hr>
+<!-- fb -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- google -->
+<script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'ja'}
+</script>
+<!-- twiter -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<div class="container-fluid">
+<div class="col-sm-12" style="text-align:center">
+	<a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a>
+	<!-- Google+ -->
+    <div class="g-plusone" data-annotation="inline" data-width="120"></div>
+	<!-- hatena -->
+	<a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="touch-counter" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+	<!-- Facebook -->
+	<div class="fb-like" data-href="http://www.sendai-tta.info/" data-width="120" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+</div>
+</div>
+<!-- /share -->
+
+
+{{ partial "footer.html" . }}

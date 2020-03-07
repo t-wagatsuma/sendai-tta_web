@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+
+<div class="bs-docs-section stta">
+<h2 id="inquiry" class="bg-primary"><span class="glyphicon glyphicon glyphicon-road"></span>&nbsp;大会情報(R02)</h2>
+
+
+{{ range $.Site.Data.games.r02 }}
+   {{ partial "game-article.html" . }}
+{{ end }}
+
+</div>
+
+{{ partial "footer.html" . }}
+{{ partial "game-script.html" . }}

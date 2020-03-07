@@ -1,0 +1,195 @@
+title: 大会情報(H28)
+
+results:
+ 20160410:
+  id: 20160410
+  nendo: h28 
+  date: "2016-04-10"
+  name: "平成28年仙台市春期卓球リーグ戦 "
+  location: "仙台市体育館"
+  dead: "2016-03-27"
+  file: "20160410.pdf"
+  result: "20160410_result.pdf"
+  photo: 
+   - "mt.jpg"
+   - "wt.jpg"
+
+ 20160429:
+  id: 20160429
+  nendo: h28 
+  date: "2016-04-29"
+  name: "第6回杜の都オープンラージボール卓球大会"
+  location: "仙台市体育館"
+  dead: "2016-04-10"
+  file: "20160429.pdf"
+  result: "20160429_result.pdf"
+  photo: 
+   - "t80.jpg"
+   - "t120.jpg"
+   - "xd80.jpg"
+   - "xd120.jpg"
+   - "xd140.jpg"
+
+ 20160505:
+  id: 20160505
+  nendo: h28
+  date: "2016-05-05"
+  name: "第46回 仙台市中学校対抗卓球大会 "
+  location: "仙台市体育館"
+  dead: "2015-04-21"
+  file: "20160505.pdf"
+  result: "20160505_result.pdf"
+  photo: 
+   - "mt.jpg"
+   - "wt.jpg"
+
+ 20160522:
+  id: 20160522
+  nendo: h28
+  date: "2016-05-22"
+  name: "仙台市民総合体育大会卓球競技"
+  location: "仙台市体育館"
+  dead: "2016-05-08"
+  file: "20160522.pdf"
+  result: "20160522_result.pdf"
+  photo: 
+   - "mt.jpg"
+   - "wt.jpg"
+
+ 20160626:
+  id: 20160626
+  nendo: h28
+  date: "2016-06-26"
+  name: "第16回仙台市卓球選手権大会（個人複）"
+  location: "仙台市体育館"
+  dead: "2016-06-11"
+  file: "20160626.pdf"
+  result: "20160626_result.pdf"
+  photo: 
+   - "md.jpg"
+   - "wd.jpg"
+   - "xd.jpg"
+   - "wd100.jpg"
+   - "xd100.jpg"
+
+ 20160731:
+  id: 20160731
+  nendo: h28
+  date: "2016-07-31"
+  name: 第16回仙台市ラージボール卓球大会
+  location: 若林体育館
+  dead: "2016-07-16"
+  file: "20160731.pdf"
+  result: "20160731_result.pdf"
+
+ 20160904:
+  id: 20160904
+  nendo: h28
+  date: 2016-09-04
+  name: 第26回仙台市卓球協会会長杯
+  location: 仙台市体育館
+  dead: 2016-08-20
+  file: 20160904.pdf
+  result: 20160904_result.pdf
+  photo: 
+   - "mts.jpg"
+   - "wts.jpg"
+   - "mtj.jpg"
+   - "wtj.jpg"
+
+
+ 20161211:
+  id: 20161211
+  nendo: h28
+  date: 2016-12-11
+  name: 平成28年 仙台市秋季リーグ戦（女子の部）
+  location: 若林体育館
+  dead: 2016-11-25
+  file: 20161211.pdf
+  result: 20161211_result.pdf
+  photo: 
+   - "wt.jpg"
+
+ 20161218:
+  id: 20161218
+  nendo: h28
+  date: 2016-12-18
+  name: 平成28年 仙台市秋季リーグ戦（女子の部）
+  location: 若林体育館
+  dead: 2016-12-03
+  file: 20161218.pdf
+  result: 20161218_result.pdf
+  photo: 
+   - "mt.jpg"
+
+ 20170114:
+  id: 20170114
+  nendo: h28
+  date: 2017-01-14
+  name: 第23回 仙台市ラージボール卓球大会 
+  location: 若林体育館
+  dead: 
+  file: 20170114.pdf
+  result: 20170114_result.pdf
+  photo: 
+   - "md80.jpg"
+   - "md120.jpg"
+   - "md140.jpg"
+   - "wd80.jpg"
+   - "wd120.jpg"
+   - "xd140.jpg"
+
+ 20170225:
+  id: 20170225
+  nendo: h28 
+  date: "2017-02-25"
+  name: "第45回 仙台市中学生新人卓球大会"
+  location: "仙台市体育館"
+  dead: 
+  file:
+  result: "20170225_result.pdf"
+  photo: 
+   - "ms2.jpg"
+   - "ws2.jpg"
+   - "ms1.jpg"
+   - "ws1.jpg"
+
+
+ 20170312:
+  id: 20170312
+  nendo: h28
+  date: 2017-03-12
+  name: 第25回 バタフライ・ダブルス・チームカップ 
+  location: 若林体育館
+  dead: 2017-02-26
+  file: 20170312.pdf
+  result: "20170312_result.pdf"
+  photo: 
+   - "mt.jpg"
+   - "wt.jpg"
+   - "mtl.jpg"
+   - "wtl.jpg"
+
+
+ 20170326:
+  id: 20170326
+  nendo: h28
+  date: 2017-03-26
+  name: 第80回 仙台市卓球選手権大会（個人戦）
+  location: 若林体育館
+  dead: 2017-03-11
+  file: 20170326.pdf
+  result: "20170326_result.pdf"
+  photo: 
+   - "ms.jpg"
+   - "ms50.jpg"
+   - "ms60.jpg"
+   - "ws.jpg"
+   - "ws60.jpg"
+   - "xd.jpg"
+   - "xd100.jpg"
+
+
+
+
+
