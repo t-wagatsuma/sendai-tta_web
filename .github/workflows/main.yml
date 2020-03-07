@@ -33,9 +33,12 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: generate
       run: HUGO_ENV=production hugo
-
-    - name: publish
-      run: |
-        pushd ./public
-        find . -type f -exec curl --ftp-create-dirs -T {} ftp://${{ secrets.FTP_USER }}:${{ secrets.FTP_PASSWORD }}@${{ secrets.FTP_HOST }}/${{ secrets.FTP_PATH }}/{} \;
-        popd
+      
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        FTP_SERVER: ${{ secrets.FTP_HOST }}
+        FTP_USERNAME: ${{ secrets.FTP_USER }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        LOCAL_DIR: public
+        REMOTE_DIR: ${{ secrets.FTP_PATH }}
