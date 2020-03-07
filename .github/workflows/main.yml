@@ -34,3 +34,8 @@ jobs:
     - name: generate
       run: HUGO_ENV=production hugo
 
+    - name: publish
+      run: |
+        pushd ./public
+        find . -type f -exec curl --ftp-create-dirs -T {} ftp://${{ secrets.FTP_USER }}:${{ secrets.FTP_PASSWORD }}@${{ secrets.FTP_HOST }}/${{ secrets.FTP_PATH }}/{} \;
+        popd
