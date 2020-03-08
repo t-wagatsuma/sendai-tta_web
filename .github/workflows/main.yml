@@ -2,7 +2,7 @@
 
 name: Generate and publish site
 
-# Controls when the action will run. Triggers the workflow on push or pull request 
+# Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
   push:
@@ -22,17 +22,13 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    # Runs a single command using the runners shell
-    - name: install hugo
-      run:  |
-        curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz | tar -xz
-        sudo mv hugo /usr/local/bin/hugo
-      env:
-        HUGO_VERSION: 0.66.0
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.66.0'
 
-    # Runs a set of commands using the runners shell
-    - name: generate
-      run: HUGO_ENV=production hugo
+    - name: Build
+      run: hugo
 
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
