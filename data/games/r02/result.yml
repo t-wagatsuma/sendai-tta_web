@@ -2,7 +2,7 @@ results:
 
  20200411:
   id: 20200411
-  nendo: r02 
+  nendo: r02
   date: "2020-04-11"
   name: "令和2年度 仙台市春季卓球リーグ戦(女子)"
   location: "宮城野体育館"
@@ -10,11 +10,11 @@ results:
   file: "20200411.pdf"
   form: "20200411_entry.pdf"
   office: "20200411_entry.xlsx"
-
+  comment: "中止となりました(2020-03-15)"
 
  20200425:
   id: 20200425
-  nendo: r02 
+  nendo: r02
   date: "2020-04-25"
   name: "令和2年度 仙台市春季卓球リーグ戦(男子)"
   location: "宮城野体育館"
@@ -22,11 +22,11 @@ results:
   file: "20200425.pdf"
   form: "20200425_entry.pdf"
   office: "20200425_entry.xlsx"
-
+  comment: "中止となりました(2020-03-15)"
 
  20200429:
   id: 20200429
-  nendo: r02 
+  nendo: r02
   date: "2020-04-29"
   name: "第10回 杜の都オープンラージボール卓球大会"
   location: "カメイアリーナ仙台"
@@ -38,7 +38,7 @@ results:
 
  20200502:
   id: 20200502
-  nendo: r02 
+  nendo: r02
   date: "2020-05-02"
   name: "第50回 仙台市中学校対抗卓球大会"
   location: "カメイアリーナ仙台"
