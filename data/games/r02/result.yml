@@ -35,7 +35,6 @@ results:
   form: "20200429_entry.pdf"
   office: "20200429_entry.xlsx"
 
-
  20200502:
   id: 20200502
   nendo: r02
@@ -46,5 +45,17 @@ results:
   file: "20200502.pdf"
   form: "20200502_entry.pdf"
   office: "20200502_entry.xlsx"
+
+ 20200524:
+  id: 20200524
+  nendo: r02
+  date: "2020-05-24"
+  name: "第57回 仙台市市民総合体育大会卓球大会"
+  location: "カメイアリーナ仙台"
+  dead: "2020-05-08"
+  file: "20200524.pdf"
+  form: "20200524_entry.pdf"
+  office: "20200524_entry.xlsx"
+
 
 
