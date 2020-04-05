@@ -27,8 +27,8 @@ jobs:
     - name: Build
       run: hugo
 
-    - name: Clean old directory
-      run: rm -rf contents/h28 contents/h29 contents/h30
+    - name: Delete Ignore Files #delete ignore contents
+      run: rm -rf inquiry lib contents/h28 contents/h29 contents/h30 
       working-directory: public
   
     - name: FTP-Deploy-Action
