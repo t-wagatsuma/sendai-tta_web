@@ -27,6 +27,10 @@ jobs:
     - name: Build
       run: hugo
 
+    - name: Clean old directory
+      run: rm -rf contents/h28 contents/h29 contents/h30
+      working-directory: public
+  
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
