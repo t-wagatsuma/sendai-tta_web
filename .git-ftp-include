@@ -1,8 +1,1 @@
-!public/css
-!public/images
-!public/js
-!public/*.html
-!public/*.png
-!public/*.ico
-!public/contents/r01
-!public/contents/r02
+!public/
