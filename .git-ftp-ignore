@@ -1,5 +1,5 @@
-inquiry
-lib
-contents/h28
-contents/h29
-contents/h30
+inquiry/*
+lib/*
+contents/h28/*
+contents/h29/*
+contents/h30/*
