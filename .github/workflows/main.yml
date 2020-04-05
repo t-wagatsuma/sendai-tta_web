@@ -32,9 +32,13 @@ jobs:
       working-directory: public
   
     - name: Delete Old Files #delete ignore contents
-      run: find ./ -mtime 10 -exec rm -f {} \; 
+      run: find . -mtime 10 
       working-directory: public
-  
+        
+    - name: Delete Old Files #delete ignore contents
+      run: find . -mtime 10 -exec rm -f {} \; 
+      working-directory: public
+      
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
