@@ -1,7 +1,6 @@
 baseURL = "http://www.sendai-tta.info/"
 languageCode = "ja"
-title = "ÀçÂæ»ÔÂîµå¶¨²ñ"
+title = "ä»™å°å¸‚å“çƒå”ä¼š"
 disableKinds = ["taxonomy","taxonomyTerm","sitemap","RSS"]
 uglyurls = true
-Copyright = "ÀçÂæ»ÔÂîµå¶¨²ñ"
-
+Copyright = "ä»™å°å¸‚å“çƒå”ä¼š"
