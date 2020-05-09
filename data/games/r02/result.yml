@@ -46,6 +46,7 @@ results:
   file: "20200502.pdf"
   form: "20200502_entry.pdf"
   office: "20200502_entry.xlsx"
+  comment: "本大会は中止となりました(2020-04-06)"
 
  20200524:
   id: 20200524
@@ -57,6 +58,7 @@ results:
   file: "20200524.pdf"
   form: "20200524_entry.pdf"
   office: "20200524_entry.xlsx"
+  comment: "本大会は中止となりました(2020-04-08)"
 
 
 
