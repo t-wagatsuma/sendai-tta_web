@@ -60,5 +60,15 @@ results:
   office: "20200524_entry.xlsx"
   comment: "本大会は中止となりました(2020-04-08)"
 
+ 20200810:
+  id: 20200810
+  nendo: r02
+  date: "2020-08-10"
+  name: "第20回 仙台市ラージボール代替卓球大会"
+  location: "カメイアリーナ仙台"
+  dead: "2020-07-19"
+  file: "20200810.pdf"
+  form: "20200810_entry.pdf"
+  office: "20200810_entry.xlsx"
 
 
