@@ -71,4 +71,25 @@ results:
   form: "20200810_entry.pdf"
   office: "20200810_entry.xlsx"
 
+ 20200822:
+  id: 20200822
+  nendo: r02
+  date: "2020-08-22"
+  name: "第30回 仙台市卓球協会会長杯卓球大会（中学の部）"
+  location: "カメイアリーナ仙台"
+  dead: "2020-08-06"
+  file: "20200822.pdf"
+  form: "20200822_entry.pdf"
+  office: "20200822_entry.xlsx"
+
+ 20200823:
+  id: 20200823
+  nendo: r02
+  date: "2020-08-23"
+  name: "第30回 仙台市卓球協会会長杯卓球大会（一般の部）"
+  location: "カメイアリーナ仙台"
+  dead: "2020-08-08"
+  file: "20200823.pdf"
+  form: "20200823_entry.pdf"
+  office: "20200823_entry.xlsx"
 
