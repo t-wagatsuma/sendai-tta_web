@@ -81,6 +81,7 @@ results:
   file: "20200822.pdf"
   form: "20200822_entry.pdf"
   office: "20200822_entry.xlsx"
+  comment: "本大会は中止となりました(2020-07-30)"
 
  20200823:
   id: 20200823
