@@ -70,6 +70,13 @@ results:
   file: "20200810.pdf"
   form: "20200810_entry.pdf"
   office: "20200810_entry.xlsx"
+  result: "20200810_result.pdf"
+  photo:
+   - "xt1.jpg"
+   - "xt2.jpg"
+   - "xd1.jpg"
+   - "xd2.jpg"
+   - "xd3.jpg"
 
  20200822:
   id: 20200822
