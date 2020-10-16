@@ -102,4 +102,24 @@ results:
   office: "20200823_entry.xlsx"
   comment: "本大会は中止となりました(2020-08-12)"
 
+ 20201212:
+  id: 20201212
+  nendo: r02
+  date: "2020-12-12"
+  name: "令和2年 仙台市秋季卓球リーグ戦(男子の部)"
+  location: "カメイアリーナ仙台"
+  dead: "2020-11-23"
+  file: "20201212.pdf"
+  form: "20201212_entry.pdf"
+  office: "20201212_entry.xlsx"
 
+ 20201219:
+  id: 20201219
+  nendo: r02
+  date: "2020-12-19"
+  name: "令和2年 仙台市秋季卓球リーグ戦(女子の部)"
+  location: "カメイアリーナ仙台"
+  dead: "2020-11-30"
+  file: "20201219.pdf"
+  form: "20201219_entry.pdf"
+  office: "20201219_entry.xlsx"
