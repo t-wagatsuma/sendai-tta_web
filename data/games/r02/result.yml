@@ -112,6 +112,7 @@ results:
   file: "20201212.pdf"
   form: "20201212_entry.pdf"
   office: "20201212_entry.xlsx"
+  covid19: true
 
  20201219:
   id: 20201219
@@ -123,3 +124,4 @@ results:
   file: "20201219.pdf"
   form: "20201219_entry.pdf"
   office: "20201219_entry.xlsx"
+  covid19: true
