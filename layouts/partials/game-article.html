@@ -29,12 +29,20 @@
 <a class="btn btn-success" href="contents/{{.nendo}}/{{.id}}/{{.result}}" target="_blank" onclick="tp('contents/{{.nendo}}/{{.result}}');'">結果</a>
 {{ end }}
 </div>
+
+{{ if .covid19 }}
+<div>
+<a href="contents/r02/covid-19-notice.pdf">【お読み下さい】施設利用にあたっての確認事項＠仙台市より</a>
+</div>
+{{ end }}
+
 {{ if .comment }}
 <hr/>
 <div class="alert alert-warning" role="alert">
 {{.comment}}&nbsp;
 </div>
 {{ end }}
+
 </div>
 
 {{ $code := .id }}
