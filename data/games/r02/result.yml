@@ -125,3 +125,15 @@ results:
   form: "20201219_entry.pdf"
   office: "20201219_entry.xlsx"
   covid19: true
+
+ 20210116:
+  id: 20210116
+  nendo: r02
+  date: "2020-01-16"
+  name: "第27回 仙台市個人ラージボール卓球大会(ダブルス戦)"
+  location: "宮城野体育館"
+  dead: "2020-12-26"
+  file: "20210116.pdf"
+  form: "20210116_entry.pdf"
+  office: "20210116_entry.xlsx"
+  covid19: true
