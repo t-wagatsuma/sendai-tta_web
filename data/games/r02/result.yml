@@ -112,7 +112,7 @@ results:
   file: "20201212.pdf"
   form: "20201212_entry.pdf"
   office: "20201212_entry.xlsx"
-  result: "20191212_result.pdf"
+  result: "20201212_result.pdf"
   photo:
    - "mt1.jpg"
    - "mt2.jpg"
