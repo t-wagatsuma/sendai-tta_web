@@ -112,7 +112,10 @@ results:
   file: "20201212.pdf"
   form: "20201212_entry.pdf"
   office: "20201212_entry.xlsx"
-  covid19: true
+  result: "20191212_result.pdf"
+  photo:
+   - "mt1.jpg"
+   - "mt2.jpg"
 
  20201219:
   id: 20201219
@@ -124,6 +127,7 @@ results:
   file: "20201219.pdf"
   form: "20201219_entry.pdf"
   office: "20201219_entry.xlsx"
+  comment: "本大会は中止となりました(2020-12-02)"
   covid19: true
 
  20210116:
