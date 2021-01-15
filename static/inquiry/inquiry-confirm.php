@@ -35,10 +35,10 @@ if (isset($_POST['mode'])  && $_POST['mode'] == 'confirm'  && isset($_SESSION['p
 			$title = gv('title');
 			$buf = gv('body');
 			$body = createbody($name, $team, $title, $buf);
-			$ret = mailsender($email, 'sendai.tta@gmail.com', 'お問い合わせを受付けました[' . $title . ']', $body, '仙台市卓球協会 Webサイト', "sendai.tta@gmail.com");
+			$ret = mailsender($email, '', 'お問い合わせを受付けました[' . $title . ']', $body, '仙台市卓球協会 Webサイト', "noreply@sedai-tta.info");
 			if ($ret) {
 				$body = createbodyfortta($name, $team, $tel, $email, $title, $buf);
-				$ret = mailsender('sendai-tta_ope@googlegroups.com', 'sendai.tta@gmail.com', $title, $body, '仙台市卓球協会 Webサイト', "sendai.tta@gmail.com");
+				$ret = mailsender('sendai.tta@gmail.com', '', $title, $body, null, "noreply@sendai-tta.info");
 			}
 		} else {
 			$isRecaptcha = false;
@@ -89,6 +89,9 @@ function mailsender($to,$bcc,$subject,$body,$fromname,$fromaddress){
     //SMTP送信
     $mail = new Qdmail();
     $mail -> smtp(true);
+
+    $setting = csvToArray("./smtp-setting.csv");
+    //var_dump($param);
     $param = array(
         'host'=>'ssl://smtp.gmail.com',
         'port'=> 465 ,
@@ -97,9 +100,11 @@ function mailsender($to,$bcc,$subject,$body,$fromname,$fromaddress){
         'pass' => 'sendai00',
         'protocol'=>'SMTP_AUTH',
     );
-    $mail ->smtpServer($param);
+    $mail ->smtpServer($setting[1]);
     $mail ->to($to);
-    $mail ->bcc($bcc);
+    if (!empty($bcc)) {
+        $mail ->bcc($bcc);
+    }
     $mail ->subject($subject);
     $mail ->from($fromaddress,$fromname);
     $mail ->text($body);
@@ -107,14 +112,40 @@ function mailsender($to,$bcc,$subject,$body,$fromname,$fromaddress){
     return $return_flag;
 }
 
+// csvの1列目をキーにした連想配列を返す（引数：csvファイルのパス）
+function csvToArray($csvPath){
+  $csvArray = array();
+  $firstFlg = true;
+  $keys = array();
+  $count = 0;
+  $file = fopen($csvPath, 'r');
+
+  while ($line = fgetcsv($file)) {
+    if($firstFlg){
+      for($i = 0; $i < count($line); $i++){
+        array_push($keys,$line[$i]);
+      }
+      $firstFlg = false;
+    }else{
+      for($i = 0; $i < count($line); $i++){
+        $csvArray[$count][$keys[$i]] = $line[$i];
+      }
+      $count++;
+    }
+  }
+  fclose($file);
+  return $csvArray;
+}
+
 function createbody($name, $team, $title, $body) {
 	$str = <<<EOM
-【本メールは自動応答として作成されております】
+【本メールは自動応答として作成されております。】
+【当メールの送信アドレスは送信専用となっております。このメールへの返信はできませんのでご了承ください。】
 
 $team $name 様
 
-仙台市卓球協会 Webサイト担当の我妻（わがつま）と申します。
-平素大変お世話になっております。
+仙台市卓球協会 Webサイト担当です。
+お世話になっております。
 
 下記の内容でお問い合わせを承りました。
 大変恐縮ですが、回答には数日～1週間程度お時間を頂く場合があります。
@@ -136,21 +167,18 @@ EOM;
 function createbodyfortta($name, $team, $tel, $email, $title, $body) {
 	$host = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 	$ua = mb_strtolower($_SERVER['HTTP_USER_AGENT']);
-	$str = <<<EOM
-====
-所属：$team
-氏名：$name 様
-メールアドレス：$email
-電話番号：$tel
-アクセス元：$host
-利用端末：$ua
-
-====
-タイトル：
-$title
+  $str = <<<EOM
+※返信は $email 宛に変更して下さい。
 
 問い合わせ内容：
 $body
+
+====
+氏名：$name 様
+所属：$team
+メールアドレス：$email
+電話番号：$tel
+
 
 EOM;
 
@@ -169,7 +197,7 @@ EOM;
 <div class="alert alert-danger">
 <p>あなたはロボットではありませんか？</p>
 </div>
-<?php } ?> 
+<?php } ?>
 
 
 
@@ -228,7 +256,7 @@ EOM;
     </div>
 </form>
 </div>
-</div> 
-</div> 
+</div>
+</div>
 
 <?php include(dirname(__FILE__) . "/footer.tmpl"); ?>
