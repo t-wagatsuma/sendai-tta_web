@@ -35,10 +35,10 @@ if (isset($_POST['mode'])  && $_POST['mode'] == 'confirm'  && isset($_SESSION['p
 			$title = gv('title');
 			$buf = gv('body');
 			$body = createbody($name, $team, $title, $buf);
-			$ret = mailsender($email, '', 'お問い合わせを受付けました[' . $title . ']', $body, '仙台市卓球協会 Webサイト', "noreply@sedai-tta.info");
+			$ret = mailsender($email, '', 'お問い合わせを受付けました[' . $title . ']', $body, '仙台市卓球協会 Webサイト', "noreply@sedai-tta.info", null);
 			if ($ret) {
 				$body = createbodyfortta($name, $team, $tel, $email, $title, $buf);
-				$ret = mailsender('sendai.tta@gmail.com', '', $title, $body, null, "noreply@sendai-tta.info");
+				$ret = mailsender('sendai.tta@gmail.com', '', $title, $body, null, "noreply@sendai-tta.info", $email);
 			}
 		} else {
 			$isRecaptcha = false;
@@ -85,7 +85,8 @@ function gv($key) {
 // $body：本文（日本語OK）
 // $fromname：送信元名（日本語OK）
 // $fromaddress：送信元メールアドレス
-function mailsender($to,$bcc,$subject,$body,$fromname,$fromaddress){
+// $replyto：返信メールアドレス
+function mailsender($to,$bcc,$subject,$body,$fromname,$fromaddress,$replyto){
     //SMTP送信
     $mail = new Qdmail();
     $mail -> smtp(true);
@@ -107,6 +108,9 @@ function mailsender($to,$bcc,$subject,$body,$fromname,$fromaddress){
     }
     $mail ->subject($subject);
     $mail ->from($fromaddress,$fromname);
+    if (!empty($replyto)) {
+        $mail ->replyto($replyto);
+    }
     $mail ->text($body);
     $return_flag = $mail->send();
     return $return_flag;
@@ -153,7 +157,7 @@ $team $name 様
 今後ともよろしくお願い致します。
 
 ====
-タイトル：$title
+タイトル： $title
 
 問い合わせ内容：
 $body
@@ -168,16 +172,15 @@ function createbodyfortta($name, $team, $tel, $email, $title, $body) {
 	$host = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 	$ua = mb_strtolower($_SERVER['HTTP_USER_AGENT']);
   $str = <<<EOM
-※返信は $email 宛に変更して下さい。
 
 問い合わせ内容：
 $body
 
 ====
-氏名：$name 様
-所属：$team
-メールアドレス：$email
-電話番号：$tel
+氏名： $name 様
+所属： $team
+メールアドレス： $email
+電話番号： $tel
 
 
 EOM;
