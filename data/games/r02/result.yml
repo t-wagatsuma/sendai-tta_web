@@ -141,12 +141,13 @@ results:
   form: "20210116_entry.pdf"
   office: "20210116_entry.xlsx"
   covid19: true
+  result: "20210116_result.pdf"
 
  20210211:
   id: 20210211
   nendo: r02
   date: "2020-02-11"
-  name: "第84回仙台市個人卓球選手権大会(個人戦)"
+  name: "第84回 仙台市個人卓球選手権大会(個人戦)"
   location: "カメイアリーナ仙台"
   dead: "2021-01-26"
   file: "20210211.pdf"
