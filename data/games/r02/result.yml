@@ -142,6 +142,20 @@ results:
   office: "20210116_entry.xlsx"
   covid19: true
   result: "20210116_result.pdf"
+  photo:
+   - "photo01.jpg"
+   - "photo02.jpg"
+   - "photo03.jpg"
+   - "photo04.jpg"
+   - "photo05.jpg"
+   - "photo06.jpg"
+   - "photo07.jpg"
+   - "photo08.jpg"
+   - "photo09.jpg"
+   - "photo10.jpg"
+   - "photo11.jpg"
+   - "photo12.jpg"
+   - "photo13.jpg"
 
  20210211:
   id: 20210211
