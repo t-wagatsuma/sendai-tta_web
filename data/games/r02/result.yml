@@ -128,7 +128,6 @@ results:
   form: "20201219_entry.pdf"
   office: "20201219_entry.xlsx"
   comment: "本大会は中止となりました(2020-12-02)"
-  covid19: true
 
  20210116:
   id: 20210116
@@ -167,4 +166,4 @@ results:
   file: "20210211.pdf"
   form: "20210211_entry.pdf"
   office: "20210211_entry.xlsx"
-  covid19: true
+  comment: "本大会は中止となりました(2021-01-27)"
