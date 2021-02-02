@@ -167,3 +167,16 @@ results:
   form: "20210211_entry.pdf"
   office: "20210211_entry.xlsx"
   comment: "本大会は中止となりました(2021-01-27)"
+
+ 20210321:
+  id: 20210321
+  nendo: r02
+  date: "2020-03-21"
+  name: "第50回 仙台市中学生新人卓球大会"
+  location: "カメイアリーナ仙台"
+  dead: "2021-02-26"
+  file: "20210321.pdf"
+  form: "20210321_entry.pdf"
+  office: "20210321_entry.xlsx"
+  covid19: true
+
