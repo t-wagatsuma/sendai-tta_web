@@ -28,7 +28,7 @@ jobs:
       run: hugo
 
     - name: Delete Ignore Files #delete ignore contents
-      run: rm -rf inquiry lib contents/h28 contents/h29 contents/h30
+      run: rm -rf inquiry lib contents/h28 contents/h29 contents/h30 contents/r01
       working-directory: public
 
     - name: Delete Old Files #delete ignore contents
