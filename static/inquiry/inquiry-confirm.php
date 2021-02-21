@@ -35,7 +35,7 @@ if (isset($_POST['mode'])  && $_POST['mode'] == 'confirm'  && isset($_SESSION['p
 			$title = gv('title');
 			$buf = gv('body');
 			$body = createbody($name, $team, $title, $buf);
-			$ret = mailsender($email, '', 'お問い合わせを受付けました[' . $title . ']', $body, '仙台市卓球協会 Webサイト', "noreply@sendai-tta.info", null);
+			$ret = mailsender($email, '', 'お問い合わせを受付けました[' . $title . ']', $body, '仙台市卓球協会(送信専用)', "noreply@sendai-tta.info", null);
 			if ($ret) {
 				$body = createbodyfortta($name, $team, $tel, $email, $title, $buf);
 				$ret = mailsender('sendai.tta@gmail.com', '', $title, $body, null, "noreply@sendai-tta.info", $email);
