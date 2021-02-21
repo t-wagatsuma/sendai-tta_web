@@ -42,7 +42,7 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
-        ftp-server: ${{ ftp://sendai-tta.sakura.ne.jp/home/sendai-tta/www/sendai-tta_preview }}
+        ftp-server: ftp://sendai-tta.sakura.ne.jp/home/sendai-tta/www/sendai-tta_preview
         ftp-username: ${{ secrets.FTP_USER }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: public
