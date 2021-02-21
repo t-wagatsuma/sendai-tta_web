@@ -6,7 +6,7 @@ name: Generate hugo and publish preview site
 # events but only for the master branch
 on:
   push:
-    branches: [ r03-start ]
+    branches: [ preview ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
