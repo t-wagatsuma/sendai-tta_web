@@ -20,10 +20,10 @@
 <a class="btn btn-default" href="contents/{{.nendo}}/{{.id}}/{{.file}}" target="_blank" onclick="tp('contents/{{.nendo}}/{{.file}}');'">大会要項</a>
 {{ end }}
 {{ if .form }}
-<a class="btn btn-info" href="contents/{{.nendo}}/{{.id}}/{{.form}}" target="_blank" onclick="tp('contents/{{.nendo}}/{{.form}}.pdf');'">申込用紙(PDF)</a>
+<a class="btn btn-info" href="contents/{{.nendo}}/{{.id}}/{{.form}}" target="_blank" onclick="tp('contents/{{.nendo}}/{{.form}}');'">申込用紙(PDF)</a>
 {{ end }}
 {{ if .office }}
-<a class="btn btn-info" href="contents/{{.nendo}}/{{.id}}/{{.office}}" target="_blank" onclick="tp('contents/{{.nendo}}/{{.form}}.xlsx');'">申込用紙(Excel)</a>
+<a class="btn btn-info" href="contents/{{.nendo}}/{{.id}}/{{.office}}" target="_blank" onclick="tp('contents/{{.nendo}}/{{.office}}');'">申込フォーム(Excel)</a>
 {{ end }}
 {{ if .result }}
 <a class="btn btn-success" href="contents/{{.nendo}}/{{.id}}/{{.result}}" target="_blank" onclick="tp('contents/{{.nendo}}/{{.result}}');'">結果</a>
@@ -32,7 +32,7 @@
 
 {{ if .covid19 }}
 <div>
-<a href="contents/r02/covid-19-notice.pdf">【お読み下さい】施設利用にあたっての確認事項＠仙台市より</a>
+<a href="contents/covid-19-notice.pdf">施設利用にあたっての確認事項＠仙台市より</a>
 </div>
 {{ end }}
 

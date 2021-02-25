@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+
+<div class="bs-docs-section stta">
+<h2 id="inquiry" class="bg-primary"><span class="glyphicon glyphicon glyphicon-road"></span>&nbsp;大会情報(R03)</h2>
+
+<div class="container-fluid">
+   <p>
+      <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><a href="./contents/how-to-entry.pdf">今年度より大会申込み方法が変更となりました。こちらを参照して下さい。</a>
+   </p>
+</div>
+
+{{ range $.Site.Data.games.r03 }}
+   {{ partial "game-article.html" . }}
+{{ end }}
+
+</div>
+
+{{ partial "footer.html" . }}
+{{ partial "game-script.html" . }}
